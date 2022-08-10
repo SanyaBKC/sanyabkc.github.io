@@ -355,6 +355,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .divider-background-color{
 	background-color:transparent;
+	margin-left:auto;
+	margin-right:auto;
+	height:0px;
 }
 .feat-sub-header{
 	font-size:20px;
@@ -540,7 +543,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	}
 	.hero-sheader-text{
 		text-align:center;
-		font-size:65px;
+		font-size:75px;
 		line-height:70px;
 	}
 	.h3-style{
@@ -548,6 +551,8 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	}
 	.btn-style{
 		width:75.93%;
+		padding-top:10px;
+		padding-bottom:10px;
 	}
 	
 }
