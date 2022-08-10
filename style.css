@@ -505,6 +505,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 		margin-bottom:40px;
 		text-align:center;
 	}
+	.btn-style{
+		width:30.78%;
+	}
 	
 }
 
@@ -518,6 +521,16 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	.feature-details-col{
 		text-align:center;
 	}
+	.hero-sheader-text{
+		font-size:100px;
+		line-height:100px;
+	}
+	.h3-style{
+		font-size:35px;
+	}
+	.btn-style{
+		width:43.16%;
+	}
 	
 }
 
@@ -527,6 +540,14 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	}
 	.hero-sheader-text{
 		text-align:center;
+		font-size:65px;
+		line-height:70px;
+	}
+	.h3-style{
+		font-size:25px;
+	}
+	.btn-style{
+		width:75.93%;
 	}
 	
 }
