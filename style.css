@@ -887,7 +887,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 		padding:5px 5px 5px 5px;
 	}
 	.btn-bloc-0-style{
-		width:66.67%;
+		width:63.33%;
+		padding-top:10px;
+		padding-bottom:10px;
 	}
 	
 	/* Mobile Row Margin Offsets */
