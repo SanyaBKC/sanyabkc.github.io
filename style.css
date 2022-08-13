@@ -236,9 +236,6 @@ button{
 
 /* = Icons
 -------------------------------------------------------------- */
-.icon-sm{
-	font-size:18px!important;
-}
 .icon-md{
 	font-size:30px!important;
 }
@@ -578,7 +575,10 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	margin:30px 30px 30px 30px;
 }
 .btn-bloc-0-style{
-	width:18%;
+	width:17.05%;
+}
+.img-style{
+	height:200px;
 }
 
 /* = Colour
@@ -880,7 +880,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 		padding:5px 5px 5px 5px;
 	}
 	.btn-bloc-0-style{
-		width:78.89%;
+		width:66.67%;
 	}
 	
 	/* Mobile Text Margin Offsets */
