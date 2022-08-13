@@ -580,6 +580,13 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .img-style{
 	height:200px;
 }
+.backgro{
+	background:linear-gradient(0deg, #FBD45C 0%, rgba(193,67,88,0.04) 100%);
+}
+.image-prew{
+	min-width:245px;
+	min-height:162px;
+}
 
 /* = Colour
 -------------------------------------------------------------- */
@@ -881,6 +888,11 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	}
 	.btn-bloc-0-style{
 		width:66.67%;
+	}
+	
+	/* Mobile Row Margin Offsets */
+	.voffset-xs{
+		margin-top:30px;
 	}
 	
 	/* Mobile Text Margin Offsets */
