@@ -1,9 +1,9 @@
-<manifest alg="2" build="2018.0.0.379" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="dfssdfsdf.ru" resolutions="1x" timestamp="1660750205718">
+<manifest alg="2" build="2018.0.0.379" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="dfssdfsdf.ru" resolutions="1x" timestamp="1660750748647">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
     <file name="________-________.css" crc="3787309038" ref="тестовая-страница"/>
-    <file name="index.css" crc="4167759632" ref="index"/>
-    <file name="nomq_index.css" crc="4234047556" ref="index"/>
+    <file name="index.css" crc="4284492764" ref="index"/>
+    <file name="nomq_index.css" crc="467930715" ref="index"/>
   </folder>
   <folder name="fonts">
     <file name="montserrat-light.woff" crc="362190089"/>
@@ -37,9 +37,15 @@
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
       <caption webpage="тестовая-страница" alt=""/>
     </file>
   </folder>
-  <file name="index.html" crc="161871914" seo="true" mt="1660750116953" redirect="true"/>
+  <file name="index.html" crc="3973086621" seo="true" mt="1660750717711" redirect="true"/>
   <file name="тестовая-страница.html" crc="4012881595" seo="true" mt="1660749666314" redirect="true"/>
 </manifest>
