@@ -1,8 +1,9 @@
-<manifest alg="2" build="2018.0.0.379" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="dfssdfsdf.ru" resolutions="1x" timestamp="1660749667536">
+<manifest alg="2" build="2018.0.0.379" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="dfssdfsdf.ru" resolutions="1x" timestamp="1660750205718">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
     <file name="________-________.css" crc="3787309038" ref="тестовая-страница"/>
-    <file name="index.css" crc="25130852" ref="index"/>
+    <file name="index.css" crc="4167759632" ref="index"/>
+    <file name="nomq_index.css" crc="4234047556" ref="index"/>
   </folder>
   <folder name="fonts">
     <file name="montserrat-light.woff" crc="362190089"/>
@@ -20,6 +21,7 @@
     <file name="jquery.watch.js" crc="99325471" ref="index:тестовая-страница"/>
     <file name="jquery.musepolyfill.bgsize.js" crc="4148998990" ref="index:тестовая-страница"/>
     <file name="require.js" crc="4157109226" ref="index:тестовая-страница"/>
+    <file name="jquery.museresponsive.js" crc="3955820958" ref="index"/>
   </folder>
   <folder name="images">
     <file name="копия фотографии fullsizerender.jpg" crc="46060414" ref="index:тестовая-страница">
@@ -29,9 +31,15 @@
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
       <caption webpage="тестовая-страница" alt=""/>
     </file>
   </folder>
-  <file name="index.html" crc="253847487" seo="true" mt="1660749666314" redirect="true"/>
+  <file name="index.html" crc="161871914" seo="true" mt="1660750116953" redirect="true"/>
   <file name="тестовая-страница.html" crc="4012881595" seo="true" mt="1660749666314" redirect="true"/>
 </manifest>
