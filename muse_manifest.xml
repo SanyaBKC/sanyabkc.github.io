@@ -1,9 +1,9 @@
-<manifest alg="2" build="2018.0.0.379" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="dfssdfsdf.ru" resolutions="1x" timestamp="1660750748647">
+<manifest alg="2" build="2018.0.0.379" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="dfssdfsdf.ru" resolutions="1x" timestamp="1660754140158">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
-    <file name="________-________.css" crc="3787309038" ref="тестовая-страница"/>
-    <file name="index.css" crc="4284492764" ref="index"/>
-    <file name="nomq_index.css" crc="467930715" ref="index"/>
+    <file name="________-________.css" crc="237145718" ref="тестовая-страница"/>
+    <file name="index.css" crc="3942685293" ref="index"/>
+    <file name="nomq_index.css" crc="3770756175" ref="index"/>
   </folder>
   <folder name="fonts">
     <file name="montserrat-light.woff" crc="362190089"/>
@@ -18,13 +18,13 @@
     <file name="museutils.js" crc="3803043152" ref="index:тестовая-страница"/>
     <file name="whatinput.js" crc="86476730" ref="index:тестовая-страница"/>
     <file name="museconfig.js" crc="380897831" ref="index:тестовая-страница"/>
-    <file name="jquery.watch.js" crc="99325471" ref="index:тестовая-страница"/>
+    <file name="jquery.watch.js" crc="99325471" ref="index"/>
     <file name="jquery.musepolyfill.bgsize.js" crc="4148998990" ref="index:тестовая-страница"/>
     <file name="require.js" crc="4157109226" ref="index:тестовая-страница"/>
     <file name="jquery.museresponsive.js" crc="3955820958" ref="index"/>
   </folder>
   <folder name="images">
-    <file name="копия фотографии fullsizerender.jpg" crc="46060414" ref="index:тестовая-страница">
+    <file name="копия фотографии fullsizerender.jpg" crc="46060414" ref="тестовая-страница">
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
@@ -45,7 +45,29 @@
       <caption webpage="index" alt=""/>
       <caption webpage="тестовая-страница" alt=""/>
     </file>
+    <file name="9960a827-9754-40ad-8f7f-6c96eb65ba32.jpg" crc="4168595029" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
   </folder>
-  <file name="index.html" crc="3973086621" seo="true" mt="1660750717711" redirect="true"/>
-  <file name="тестовая-страница.html" crc="4012881595" seo="true" mt="1660749666314" redirect="true"/>
+  <file name="index.html" crc="4071892491" seo="true" mt="1660754136960" redirect="true"/>
+  <file name="тестовая-страница.html" crc="292665404" seo="true" mt="1660753457674" redirect="true"/>
 </manifest>
