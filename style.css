@@ -1,5 +1,5 @@
 /*-----------------------------------------------------------------------------------
-	Вкус цветов
+	Букет вкусов
 	About: A shiny new Blocs website.
 	Author: Александр Почекутов
 	Version: 1.0
@@ -19,6 +19,16 @@ a:hover{text-decoration: none; cursor:pointer;}
 
 /* = Web Fonts
 -------------------------------------------------------------- */
+
+@font-face {
+	font-family:'Montserrat-Bold';
+	src: url('./fonts/Montserrat-Bold/Montserrat-Bold.woff');
+	src: url('./fonts/Montserrat-Bold/Montserrat-Bold.woff') format('woff'),
+	url('./fonts/Montserrat-Bold/Montserrat-Bold.eot?#iefix') format('embedded-opentype'),
+	url('./fonts/Montserrat-Bold/Montserrat-Bold.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
 
 @font-face {
 	font-family:'Montserrat-Medium';
@@ -124,6 +134,16 @@ a:hover{text-decoration: none; cursor:pointer;}
 	top:-7px}.navbar-expand-lg .dropdown-menu .submenu-left{
 	right:100%;
 	left:auto}
+}
+/* = Open menus on hover
+-------------------------------------------------------------- */
+@media (min-width: 992px){
+	.hover-open-submenu li:hover > .dropdown > .dropdown-menu, .hover-open-submenu .dropdown-menu > li:hover .dropdown-menu{
+	display: block;
+}
+.hover-open-submenu li .dropdown .dropdown-menu{
+	margin-top:0;
+}
 }
 /* = Bric adjustment margins
 -------------------------------------------------------------- */
@@ -409,7 +429,7 @@ a[data-lightbox]:hover img{
 -------------------------------------------------------------- */
 
 h1,h2,h3,h4,h5,h6,p,label,.btn,a{
-	font-family:"Montserrat-Medium";
+	font-family:"Montserrat";
 }
 .container{
 	max-width:1280px;
@@ -701,6 +721,31 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	opacity:0.7;
 	padding:7px 7px 7px 7px;
 }
+.title-block{
+	font-family:"Montserrat-Medium";
+	font-size:40px;
+	text-align:center;
+	color:#424242!important;
+}
+.mid-tiltle-block{
+	font-family:"Montserrat-Light";
+	color:#5E5E5E!important;
+	font-size:15px;
+}
+.h1-title{
+	font-family:"Montserrat-Bold";
+	text-align:left;
+	font-size:110px;
+	color:#212121!important;
+	line-height:100px;
+}
+.h2-title{
+	font-family:"Montserrat-Medium";
+	font-size:22px;
+	text-align:left;
+	color:#5E5E5E!important;
+	text-indent:8px;
+}
 
 /* = Colour
 -------------------------------------------------------------- */
@@ -834,6 +879,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	.btn-bloc-0-style{
 		width:29.25%;
 	}
+	h1,h2,h3,h4,h5,h6,p,label,.btn,a{
+		font-family:"Montserrat";
+	}
 	
 }
 
@@ -866,6 +914,13 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	}
 	.card-collum{
 		margin:20px 20px 20px 20px;
+	}
+	.h6-2-дня-style{
+		font-size:px;
+		line-height:px;
+	}
+	h1,h2,h3,h4,h5,h6,p,label,.btn,a{
+		font-family:"Montserrat";
 	}
 	
 }
@@ -911,6 +966,18 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	.card-collum{
 		margin:10px 10px 10px 10px;
 		padding:0px 0px 0px 0px;
+	}
+	h1,h2,h3,h4,h5,h6,p,label,.btn,a{
+		font-family:"Montserrat";
+	}
+	.h1-title{
+		font-size:50px;
+		text-align:center;
+		line-height:50px;
+	}
+	.h2-title{
+		font-size:15px;
+		text-align:center;
 	}
 	
 	/* Mobile Row Margin Offsets */
