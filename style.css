@@ -679,10 +679,11 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	padding:0px 0px 0px 0px;
 }
 .card-label{
-	font-family:"Montserrat-Medium";
+	font-family:"Montserrat";
 	text-align:left;
 	font-size:18px;
 	color:#424242!important;
+	font-weight:normal;
 	margin:10px 10px 10px 10px;
 	padding:7px 7px 7px 7px;
 }
@@ -705,7 +706,8 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	color:#5E5E5E!important;
 	font-size:18px;
 	text-align:left;
-	font-family:"Montserrat-Light";
+	font-family:"Montserrat";
+	font-weight:normal;
 	padding:8px 8px 8px 8px;
 }
 .h6-style{
@@ -722,15 +724,17 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	padding:7px 7px 7px 7px;
 }
 .title-block{
-	font-family:"Montserrat-Medium";
+	font-family:"Montserrat";
 	font-size:40px;
 	text-align:center;
 	color:#424242!important;
+	font-weight:normal;
 }
 .mid-tiltle-block{
-	font-family:"Montserrat-Light";
+	font-family:"Montserrat";
 	color:#5E5E5E!important;
 	font-size:15px;
+	font-weight:normal;
 }
 .h1-title{
 	font-family:"Montserrat-Bold";
@@ -755,7 +759,13 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .bgc-platinum{
 	background-color:#EAEAEA;
 }
+.bgc-platinum-2{
+	background-color:#EAEAEA;
+}
 .bgc-white{
+	background-color:#FEFFFF;
+}
+.bgc-white-2{
 	background-color:#FEFFFF;
 }
 .bgc-old-gold{
@@ -978,6 +988,12 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	.h2-title{
 		font-size:15px;
 		text-align:center;
+	}
+	.title-block{
+		font-size:24px;
+	}
+	.mid-tiltle-block{
+		font-size:12px;
 	}
 	
 	/* Mobile Row Margin Offsets */
