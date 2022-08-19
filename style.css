@@ -468,12 +468,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	background:linear-gradient(0deg, rgba(255,255,255,0.0), #FFFFFF);
 	color:transparent!important;
 }
-.divider-background-color{
-	background-color:transparent;
-	margin-left:auto;
-	margin-right:auto;
-	height:0px;
-}
 .feat-sub-header{
 	font-size:20px;
 }
@@ -751,6 +745,19 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	color:#5E5E5E!important;
 	text-indent:8px;
 }
+.button-title{
+	font-family:"Montserrat";
+	text-align:center;
+	background-color:#212121;
+	margin-left:8px;
+	width:40%;
+	margin-top:15px;
+}
+.button-title:hover{
+	font-family:"Montserrat";
+	box-shadow:0px 0px 6px rgba(0,0,0,0.30);
+	background-color:#212121;
+}
 
 /* = Colour
 -------------------------------------------------------------- */
@@ -902,6 +909,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 		text-align:left;
 		font-size:18px;
 	}
+	.button-title{
+		width:50%;
+	}
 	
 }
 
@@ -1004,6 +1014,10 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	}
 	.mid-tiltle-block{
 		font-size:12px;
+	}
+	.button-title{
+		width:70%;
+		margin-top:10px;
 	}
 	
 	/* Mobile Row Margin Offsets */
