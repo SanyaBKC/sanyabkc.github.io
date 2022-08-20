@@ -17,29 +17,6 @@ body{
 a,button{transition: background .3s ease-in-out;outline: none!important;} /* Prevent blue selection glow on Chrome and Safari */
 a:hover{text-decoration: none; cursor:pointer;}
 
-/* = Web Fonts
--------------------------------------------------------------- */
-
-@font-face {
-	font-family:'Montserrat-Bold';
-	src: url('./fonts/Montserrat-Bold/Montserrat-Bold.woff');
-	src: url('./fonts/Montserrat-Bold/Montserrat-Bold.woff') format('woff'),
-	url('./fonts/Montserrat-Bold/Montserrat-Bold.eot?#iefix') format('embedded-opentype'),
-	url('./fonts/Montserrat-Bold/Montserrat-Bold.ttf') format('truetype');
-	font-weight: normal;
-	font-style: normal;
-}
-
-@font-face {
-	font-family:'Montserrat-Medium';
-	src: url('./fonts/Montserrat-Medium/Montserrat-Medium.woff');
-	src: url('./fonts/Montserrat-Medium/Montserrat-Medium.woff') format('woff'),
-	url('./fonts/Montserrat-Medium/Montserrat-Medium.eot?#iefix') format('embedded-opentype'),
-	url('./fonts/Montserrat-Medium/Montserrat-Medium.ttf') format('truetype');
-	font-weight: normal;
-	font-style: normal;
-}
-
 /* = Blocs
 -------------------------------------------------------------- */
 
@@ -711,6 +688,8 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .h6-style{
 	width:90.58%;
+	font-family:"Montserrat";
+	font-weight:bold;
 }
 .row{
 	padding:10px 10px 10px 10px;
@@ -736,18 +715,20 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	font-weight:normal;
 }
 .h1-title{
-	font-family:"Montserrat-Bold";
+	font-family:"Montserrat";
 	text-align:left;
 	font-size:110px;
 	color:#212121!important;
 	line-height:100px;
+	font-weight:bold;
 }
 .h2-title{
-	font-family:"Montserrat-Medium";
+	font-family:"Montserrat";
 	font-size:22px;
 	text-align:left;
 	color:#5E5E5E!important;
 	text-indent:8px;
+	font-weight:normal;
 }
 .button-title{
 	font-family:"Montserrat";
@@ -772,6 +753,10 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .card-columm-price{
 	padding-top:0px;
 	padding-bottom:0px;
+}
+.image-man{
+	width:97%;
+	height:97%;
 }
 
 /* = Colour
@@ -1060,17 +1045,26 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	}
 	.title-block{
 		font-size:24px;
+		font-family:"Montserrat";
+		font-weight:normal;
 	}
 	.mid-tiltle-block{
-		font-size:12px;
+		font-size:10px;
+		text-align:center;
+		font-family:"Montserrat";
+		font-weight:normal;
 	}
 	.button-title{
 		width:70%;
 		margin-top:10px;
+		font-family:"Montserrat";
 	}
 	.image-man{
-		width:80%;
-		height:80%;
+		width:90%;
+		height:90%;
+	}
+	.footer-link{
+		text-align:center;
 	}
 	
 	/* Mobile Row Margin Offsets */
