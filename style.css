@@ -951,9 +951,11 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	.h2-title{
 		text-align:left;
 		font-size:18px;
+		text-indent:4px;
 	}
 	.button-title{
 		width:50%;
+		margin-left:4px;
 	}
 	
 }
@@ -994,6 +996,10 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	}
 	h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 		font-family:"Montserrat";
+	}
+	.image-man{
+		height:65%;
+		width:65%;
 	}
 	
 }
@@ -1061,6 +1067,10 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	.button-title{
 		width:70%;
 		margin-top:10px;
+	}
+	.image-man{
+		width:80%;
+		height:80%;
 	}
 	
 	/* Mobile Row Margin Offsets */
